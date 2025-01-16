@@ -16,17 +16,24 @@ This project is a **Streamlit-based application** that automates the process of 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/Syam1815/Agency-verification.git
+   
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repository-name
+    cd Agency-verification
     ```
-3. Install dependencies:
+3. Create a virtual environment
+    ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate 
+    ```
+
+4. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-4. Create a `.env` file in the project directory and add the following:
+5. Create a `.env` file in the project directory and add the following:
     ```env
     GOOGLE_API_KEY=your_gemini_api_key
     EMAIL_PASSWORD=your_email_password
